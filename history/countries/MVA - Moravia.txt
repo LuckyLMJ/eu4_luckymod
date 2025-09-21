@@ -1,0 +1,20 @@
+government = theocracy
+add_government_reform = leading_clergy_reform
+primary_culture = czech
+religion = hussite
+government_rank = 1
+capital = 265 #Brno
+technology_group = western
+
+elector = yes
+
+1444.1.1 = {
+	monarch = {
+		name = "Jirí"
+		dynasty = "z Podebrad"
+		birth_date = 1420.4.23
+		adm = 6 #5
+ 		dip = 5 #4
+		mil = 4 #3
+	}
+}

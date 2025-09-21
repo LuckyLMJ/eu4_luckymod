@@ -1,0 +1,49 @@
+#For the record, LBV = Lower Bavaria
+
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = bavarian
+religion = catholic
+capital = 64	# Landshut
+
+elector = yes
+
+1393.12.4 = {
+	monarch = {
+		name = "Heinrich XVI"
+		dynasty = "von Wittelsbach"
+		birth_date = 1396.1.1 #1386
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+
+1412.11.25 = {
+	queen = {
+		name = "Margarete"
+		dynasty = "von Habsburg"
+		country_of_origin = HAB
+		birth_date = 1395.1.1
+		death_date = 1447.12.24
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1427.2.23 = {
+	heir = {
+		name = "Ludwig"
+		monarch_name = "Ludwig IX"
+		dynasty = "von Wittelsbach"
+		birth_date = 1427.2.23 #1417
+		death_date = 1479.1.18
+		adm = 5 #4
+		dip = 4 #3
+		mil = 3 #2
+	}
+}

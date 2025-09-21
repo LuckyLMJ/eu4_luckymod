@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = pirate_republic_reform
+technology_group = muslim
+religion = sunni
+primary_culture = sicilian
+capital = 125	# Palermo
+religious_school = maliki_school
+
+
+1444.1.1 = {
+	monarch = { 
+		name = "Muhammad"
+		birth_date = 1426.2.7
+		adm = 5
+		dip = 3
+		mil = 6
+		clear_scripted_personalities = yes
+		add_ruler_personality = legendary_pirate_personality
+	}
+}

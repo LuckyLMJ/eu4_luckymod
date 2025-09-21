@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = beylik_government
+government_rank = 1
+primary_culture = turkish
+religion = sunni
+technology_group = ottoman
+capital = 329	# Sivas
+religious_school = hanafi_school
+
+
+1398.1.1 = { # don't know exact date
+	monarch = {
+		name = "Zeyn al-'Abidin" # Wikipedia rabbit hole says this person died in 1443 but he was the last ruler of the Eretnids for two years 
+		dynasty = "Eretnid" # He was not of this dynasty... but he wasn't part of any. Close enough for this purpose
+		birth_date = 1341.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

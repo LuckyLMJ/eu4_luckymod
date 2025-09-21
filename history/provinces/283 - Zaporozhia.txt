@@ -1,0 +1,24 @@
+# 283 - Zaporozhia
+owner = ZAZ
+controller = ZAZ
+culture = crimean
+religion = sunni
+hre = no
+base_tax = 6 #1
+base_production = 6 #1
+trade_goods = iron #livestock #this is for balancing
+base_manpower = 8 #2
+capital = "Sich"
+is_city = yes
+add_core = CRI
+add_core = ZAZ
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+add_province_triggered_modifier = own_zaporizhia
+1444.1.1 = { 
+    culture = ruthenian
+    religion = orthodox
+}

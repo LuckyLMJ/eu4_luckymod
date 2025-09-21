@@ -1,0 +1,25 @@
+# Completely disable dev edict.
+# All nations get -10% dev cost (as well as 10% dev cost in primary culture!)
+edict_encourage_development = {
+	potential = {
+		always = no		#we support "potential" if modders want to have lots and just show some.
+	}
+	
+	allow = {
+		always = no
+	}
+	
+	years_to_notify = 3 #specifies how many years an edict needs to be active to show an alert
+
+	modifier = {
+		local_development_cost = -0.1
+	}
+	
+	color = {  244 184 12  }
+	
+	
+	ai_will_do = {
+		factor = 0
+	}
+	
+}

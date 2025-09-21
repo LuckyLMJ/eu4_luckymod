@@ -1,0 +1,15 @@
+Greece GRE
+Holland HOL
+Landshut LBV
+Granada GRA
+Florence LAN
+Zaporizhia ZAZ
+Desmond DMS
+Dithmarschen DTT
+Lorraine LOR
+Navarra NAV
+
+Moravia MVA
+Karaman KAR
+Sicily SIC
+Finland FIN

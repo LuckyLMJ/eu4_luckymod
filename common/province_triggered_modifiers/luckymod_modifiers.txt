@@ -1,0 +1,280 @@
+own_greece = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			NOT = {tag = BUL}
+			NOT = {tag = SER}
+			NOT = {tag = TUR}
+			thrace_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+		
+	}
+
+	discipline = 0.025
+}
+
+own_holland = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			holland_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	development_cost = -0.05
+}
+
+own_bavaria = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			upper_bavaria_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+			lower_bavaria_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+			east_bavaria_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	global_trade_goods_size_modifier = 0.1
+}
+
+own_andalusia = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			NOT = {tag = CAS}
+			NOT = {tag = POR}
+			upper_andalucia_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	num_accepted_cultures = 1
+	tolerance_heathen = 1
+	tolerance_of_heathens_capacity = 1
+}
+
+own_tuscany = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			tuscany_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	development_cost_modifier = -0.025
+}
+
+own_zaporizhia = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			NOT = {tag = CRI}
+			zaporizhia_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+	
+	global_trade_goods_size = 0.2 # one free production dev in each province, that doesn't cost any govcap.
+}
+
+own_leinster = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			NOT = {tag = ENG}
+			NOT = {tag = SCO}
+			leinster_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	ship_durability = 0.15
+	naval_morale = 0.15
+}
+own_schleswig_holstein = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			holstein_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	reelection_cost = -0.15
+	monarch_lifespan = 0.15
+}
+own_lorraine = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			lorraine_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	infantry_power = 0.1
+}
+
+own_navarra= {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			basque_country = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	culture_conversion_cost = -0.05
+	development_cost_in_primary_culture = -0.075
+}
+
+own_brno = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			moravia_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	diplomatic_upkeep = 1
+	diplomatic_reputation = 0.5
+}
+
+own_sicily = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			sicily_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+			western_sicily_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	galley_power = 0.2
+}
+
+own_karaman = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			karaman_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	discipline = 0.025
+}
+
+own_finland = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			finland_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	max_hostile_attrition = 0.5
+	hostile_attrition = 0.5
+}

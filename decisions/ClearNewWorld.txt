@@ -1,0 +1,73 @@
+country_decisions = {
+	clear_new_world = {
+		potential = {
+			ai = no
+			NOT = {
+				1 = {
+					has_province_flag = luckymod_cleared_new_world
+				}
+			}
+		}
+		effect = {
+			hidden_effect = {
+				1 = {
+					set_province_flag = luckymod_cleared_new_world
+				}
+				
+				north_america = {
+					set_base_tax = 1
+					set_base_production = 1
+					set_base_manpower = 1
+					change_tribal_land = ---
+					decolonize = THIS
+				}
+				south_america = {
+					set_base_tax = 1
+					set_base_production = 1
+					set_base_manpower = 1
+					change_tribal_land = ---
+					decolonize = THIS
+				}
+				oceania = {
+					set_base_tax = 1
+					set_base_production = 1
+					set_base_manpower = 1
+					change_tribal_land = ---
+					decolonize = THIS
+				}
+				the_new_world = {
+					set_base_tax = 1
+					set_base_production = 1
+					set_base_manpower = 1
+					change_tribal_land = ---
+					decolonize = THIS
+				} 
+				southern_africa_superregion = {
+					set_base_tax = 1
+					set_base_production = 1
+					set_base_manpower = 1
+					change_tribal_land = ---
+					decolonize = THIS
+				}
+				kamchatka_area = {
+					set_base_tax = 1
+					set_base_production = 1
+					set_base_manpower = 1
+					change_tribal_land = ---
+					decolonize = THIS
+				}
+
+				every_province = {
+					limit = {
+						is_empty = yes
+					}
+					set_base_tax = 1
+					set_base_production = 1
+					set_base_manpower = 1
+					change_tribal_land = ---
+					decolonize = THIS
+				}
+			}
+		}
+	}
+}

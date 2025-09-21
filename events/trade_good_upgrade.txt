@@ -1,0 +1,166 @@
+namespace = trade_good_upgrade
+
+province_event = {
+	id = trade_good_upgrade.1
+	title = trade_good_upgrade.1.t
+	desc = trade_good_upgrade.1.d
+	picture = TRADEGOODS_eventPicture
+	trigger = {
+		OR = {
+			development = 20
+			num_of_buildings_in_province = 3
+		}
+		OR = {
+			trade_goods = fish
+			trade_goods = slaves
+			trade_goods = grain
+			trade_goods = wool
+			trade_goods = naval_supplies
+			trade_goods = tropical_wood
+			trade_goods = incense
+			trade_goods = wine
+			trade_goods = salt
+			trade_goods = spices
+			trade_goods = livestock
+			trade_goods = fur
+			trade_goods = tea
+			trade_goods = coffee
+			trade_goods = cotton
+		}
+		NOT = {
+			has_province_flag = tried_upgrade_trade_good
+		}
+	}
+	mean_time_to_happen = {
+		months = 1200 #100 years
+		modifier = {
+			factor = 10000
+			NOT = {
+				controlled_by = owner
+			}
+		}
+		modifier = {
+			factor = 10000
+			devastation = 1
+		}
+		modifier = {
+			factor = 0.75
+			development = 30
+		}
+		modifier = {
+			factor = 0.75
+			development = 35
+		}
+		modifier = {
+			factor = 0.75
+			development = 40
+		}
+		modifier = {
+			factor = 0.5
+			development = 45
+		}
+		modifier = {
+			factor = 0.01
+			development = 50
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 5
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 7
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 9
+		}
+	}
+	immediate = {
+		set_province_flag = tried_upgrade_trade_good
+	}
+	option = {
+		name = trade_good_upgrade.1.a
+		ai_chance = {factor = 100}
+		random_list = {
+			20 = {
+				change_trade_goods = cloth
+				modifier = {
+					factor = 100
+					trade_goods = cotton
+				}
+				modifier = {
+					factor = 100
+					trade_goods = wool
+				}
+				modifier = {
+					factor = 2
+					trade_goods = fur
+				}
+			}
+			7 = {
+				change_trade_goods = glass
+			}
+			10 = {
+				change_trade_goods = paper
+			}
+			15 = {
+				change_trade_goods = chinaware
+				modifier = {
+					factor = 0
+					NOT = {
+						OR = {
+							owner = {
+								OR = {
+									culture_group = east_asian
+									culture_group = japanese_g
+									culture_group = korean_g
+									culture_group = malay
+									culture_group = thai_group
+									culture_group = southeastasian_group
+									culture_group = burman
+								}
+							}
+							OR = {
+								culture_group = east_asian
+								culture_group = japanese_g
+								culture_group = korean_g
+								culture_group = malay
+								culture_group = thai_group
+								culture_group = southeastasian_group
+								culture_group = burman
+							}
+						}
+					}
+				}
+			}
+			3 = {
+				change_trade_goods = silk
+				modifier = {
+					factor = 0.25
+					religion_group = christian
+					NOT = {
+						is_or_was_tag = BYZ # Byzantines made silks, other Christians didn't. Just counterracts 1/4 modifier from being Christian
+					}
+				}
+				modifier = {
+					factor = 2
+					religion = hindu
+				}
+				modifier = {
+					factor = 1.5
+					culture_group = persian
+				}
+				modifier = {
+					factor = 1.25
+					culture_group = byzantine
+				}
+			}
+		}
+	}
+	option = {
+		name = trade_good_upgrade.1.b
+		ai_chance = {factor = 0}
+		custom_tooltip = trade_good_upgrade_refuse_tt
+	}
+}	

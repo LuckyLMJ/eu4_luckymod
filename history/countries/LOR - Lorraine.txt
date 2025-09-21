@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = burgundian
+religion = catholic
+technology_group = western
+capital = 189	# Nancy
+
+elector = yes #new... all player countries are electors now.
+
+1425.1.1 = {
+	monarch = {
+		name = "Charles III"
+		dynasty = "von Luxemburg"
+		birth_date = 1425.1.1 #1364.1.1
+		adm = 4 #1
+		dip = 4 #1
+		mil = 6 #3
+	}
+}

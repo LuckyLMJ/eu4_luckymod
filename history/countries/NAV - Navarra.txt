@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = courts_of_navarra
+primary_culture = basque
+religion = catholic
+technology_group = western
+capital = 210	# Pamplona
+
+
+1387.1.1 = {
+	monarch = {
+		name = "Carlos III"
+		dynasty = "de Évreux"
+		birth_date = 1361.1.1
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+
+1440.1.1 = {
+	monarch = {
+		name = "Carlos IV"
+		dynasty = "de Évreux"
+		birth_date = 1420.1.1
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}
+
+#1425.1.1 = {
+#	monarch = {
+#		name = "Joan II"
+#		dynasty = "de Trastámara"
+#		birth_date = 1397.6.29
+#		adm = 4
+#		dip = 1
+#		mil = 0
+#	}
+#	set_ruler_flag = joan_trastamara_flag
+#}

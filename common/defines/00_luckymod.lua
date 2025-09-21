@@ -1,0 +1,60 @@
+NDefines.NMilitary.SIEGE_FORCE_NEEDED_MULTIPLIER = 2
+NDefines.NMilitary.MERCENARY_COMPANY_MIN_REGIMENTS = 1;
+NDefines.NMilitary.MERCENARY_COMPANY_MANPOWER_PER_REGIMENT = 1.0;
+NDefines.NMilitary.MERCENARY_COMPANY_MANPOWER_RECOVERY = 180;
+
+NDefines.NCountry.REVOLT_SIZE_DEVELOPMENT_MULTIPLIER = 0.15
+NDefines.NCountry.REVOLT_SIZE_BASE = 1
+NDefines.NCountry.STARTING_ARMY_SIZE = 1 --0.75
+NDefines.NCountry.STARTING_FLEET_SIZE = 1 --0.9	
+
+NDefines.NDiplomacy.AUTONOMY_WARSCORE_COST_MODIFIER = 0.75
+NDefines.NDiplomacy.PEACE_COST_DEMAND_PROVINCE = 1.0
+NDefines.NDiplomacy.PEACE_COST_CONCEDE_PROVINCE = 1.0
+NDefines.NDiplomacy.PEACE_COST_BECOME_VASSAL = 1.0
+NDefines.NDiplomacy.PEACE_COST_RELEASE_ANNEXED = 1.0
+NDefines.NDiplomacy.PEACE_COST_RELEASE_VASSAL = 0.5
+NDefines.NDiplomacy.PEACE_COST_RETURN_CORE = 1.0
+NDefines.NDiplomacy.PEACE_COST_DEMAND_NON_OCCUPIED_PROVINCE_MULT = 1.25
+NDefines.NDiplomacy.FABRICATE_CLAIM_COST = 10
+NDefines.NDiplomacy.AE_HRE_INTERNAL = 0.25
+NDefines.NDiplomacy.AE_DEFENDER_DEVELOPMENT = 0.005
+NDefines.NDiplomacy.AE_PROVINCE_CAP = 50
+NDefines.NDiplomacy.AE_FABRICATE_CLAIM = 0
+NDefines.NDiplomacy.DEFENDER_AE_MULT = 0.66
+NDefines.NDiplomacy.DAYS_TO_DECLARE_WAR = 0
+NDefines.NDiplomacy.DEFENDER_OF_FAITH_COST = 10000000 --10 million, basically you can't get DotF
+NDefines.NDiplomacy.MAX_FREE_CITIES = 8 --12
+
+NDefines.NDiplomacy.INTEGRATE_UNION_MIN_YEARS = 50 --50
+NDefines.NDiplomacy.INTEGRATE_VASSAL_MIN_YEARS = 15 --10
+NDefines.NDiplomacy.DIPLOANNEX_LIBERTY_THRESHHOLD = 25 --50. Now require very loyal subjects to annex them.
+--for some reason this doesn't work.
+--NDefines.NDiplomacy.ANNEX_DIP_COST_PER_DEVELOPMENT = 16 --from 8 - normal cores take 10, but there are two modifiers that affect this so it's more expensive.
+
+NDefines.NEconomy.DECREASE_AUTONOMY_STEP = -20
+NDefines.NEconomy.DECREASE_AUTONOMY_MIN = 10
+NDefines.NEconomy.INCREASE_AUTONOMY_STEP = 20
+NDefines.NEconomy.INCREASE_AUTONOMY_MAX = 80
+
+NDefines.NEconomy.AUTONOMY_AT_CONQUEST = 100
+NDefines.NEconomy.AUTONOMY_AT_CONQUEST_CLAIM = 90
+NDefines.NEconomy.AUTONOMY_AT_CONQUEST_CORE = 75
+
+NDefines.NEconomy.OVERSEAS_MIN_AUTONOMY = 0
+NDefines.NEconomy.COLONY_MIN_AUTONOMY = 0
+NDefines.NEconomy.CAPITAL_MAX_AUTONOMY = 100
+
+NDefines.NEconomy.MISSIONARY_MAINTENANCE_AUTONOMY_FACTOR = 0.5
+
+NDefines.NMilitary.FORTRESS_COST = 0.25
+NDefines.NMilitary.TRANSPORT_COST = 2
+NDefines.NMilitary.WARGOAL_MAX_BONUS = 50
+NDefines.NMilitary.WARSCORE_MAX_FROM_BATTLES = 50
+NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0.01
+
+-- testing stuff
+NDefines.NAI.AGGRESSIVENESS = 5000 --200
+NDefines.NAI.AGGRESSIVENESS_BONUS_EASY_WAR = 10000 --300
+NDefines.NAI.OVER_FORCELIMIT_AVOIDANCE_FACTOR = 5 --10
+

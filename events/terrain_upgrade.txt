@@ -1,0 +1,261 @@
+namespace = terrain_upgrade
+
+province_event = {
+	id = terrain_upgrade.1
+	title = terrain_upgrade.1.t
+	desc = terrain_upgrade.1.d
+	picture = TRADEGOODS_eventPicture
+	trigger = {
+		OR = {
+			development = 15
+			num_of_buildings_in_province = 3
+		}
+		OR = {
+			has_terrain = woods
+			has_province_modifier = luckymod_forest_cleared
+		}
+		NOT = {
+			has_province_modifier = luckymod_woods_cleared
+		}
+	}
+	mean_time_to_happen = {
+		months = 600 #50 years
+		modifier = {
+			factor = 10000
+			NOT = {
+				controlled_by = owner
+			}
+		}
+		modifier = {
+			factor = 10000
+			devastation = 1
+		}
+		modifier = {
+			factor = 0.75
+			development = 20
+		}
+		modifier = {
+			factor = 0.75
+			development = 25
+		}
+		modifier = {
+			factor = 0.75
+			development = 30
+		}
+		modifier = {
+			factor = 0.75
+			development = 35
+		}
+		modifier = {
+			factor = 0.75
+			development = 40
+		}
+		modifier = {
+			factor = 0.5
+			development = 45
+		}
+		modifier = {
+			factor = 0.01
+			development = 50
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 1
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 3
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 5
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 7
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 9
+		}
+	}
+	option = {
+		name = terrain_upgrade.1.a
+		ai_chance = {factor = 100}
+		add_province_modifier = {
+			name = luckymod_woods_cleared
+			duration = -1
+		}
+	}
+}
+province_event = {
+	id = terrain_upgrade.2
+	title = terrain_upgrade.2.t
+	desc = terrain_upgrade.2.d
+	picture = TRADEGOODS_eventPicture
+	trigger = {
+		OR = {
+			development = 15
+			num_of_buildings_in_province = 3
+		}
+		OR = {
+			has_terrain = forest
+			has_province_modifier = luckymod_jungle_cleared
+		}
+		NOT = {
+			has_province_modifier = luckymod_forest_cleared
+		}
+	}
+	mean_time_to_happen = {
+		months = 1200 #100 years
+		modifier = {
+			factor = 10000
+			NOT = {
+				controlled_by = owner
+			}
+		}
+		modifier = {
+			factor = 10000
+			devastation = 1
+		}
+		modifier = {
+			factor = 0.75
+			development = 20
+		}
+		modifier = {
+			factor = 0.75
+			development = 25
+		}
+		modifier = {
+			factor = 0.75
+			development = 30
+		}
+		modifier = {
+			factor = 0.75
+			development = 35
+		}
+		modifier = {
+			factor = 0.75
+			development = 40
+		}
+		modifier = {
+			factor = 0.5
+			development = 45
+		}
+		modifier = {
+			factor = 0.01
+			development = 50
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 1
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 3
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 5
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 7
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 9
+		}
+	}
+	option = {
+		name = terrain_upgrade.2.a
+		ai_chance = {factor = 100}
+		add_province_modifier = {
+			name = luckymod_forest_cleared
+			duration = -1
+		}
+	}
+}
+province_event = {
+	id = terrain_upgrade.3
+	title = terrain_upgrade.3.t
+	desc = terrain_upgrade.3.d
+	picture = TRADEGOODS_eventPicture
+	trigger = {
+		OR = {
+			development = 20
+			num_of_buildings_in_province = 3
+		}
+		OR = {
+			has_terrain = jungle
+		}
+		NOT = {
+			has_province_modifier = luckymod_jungle_cleared
+		}
+	}
+	mean_time_to_happen = {
+		months = 1800 #150 years
+		modifier = {
+			factor = 10000
+			NOT = {
+				controlled_by = owner
+			}
+		}
+		modifier = {
+			factor = 10000
+			devastation = 1
+		}
+		modifier = {
+			factor = 0.75
+			development = 25
+		}
+		modifier = {
+			factor = 0.75
+			development = 30
+		}
+		modifier = {
+			factor = 0.75
+			development = 35
+		}
+		modifier = {
+			factor = 0.75
+			development = 40
+		}
+		modifier = {
+			factor = 0.5
+			development = 45
+		}
+		modifier = {
+			factor = 0.01
+			development = 50
+		}
+		modifier = {
+			factor = 0.9
+			num_of_buildings_in_province = 1
+		}
+		modifier = {
+			factor = 0.9
+			num_of_buildings_in_province = 3
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 5
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 7
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 9
+		}
+	}
+	option = {
+		name = terrain_upgrade.3.a
+		ai_chance = {factor = 100}
+		add_province_modifier = {
+			name = luckymod_jungle_cleared
+			duration = -1
+		}
+	}
+}	

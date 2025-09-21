@@ -1,0 +1,45 @@
+government = republic
+add_government_reform = cossacks_reform
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 283	# Zaporozhia
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -30
+}
+change_estate_land_share = {
+	estate = estate_cossacks
+	share = 20
+}
+
+1444.1.1 = {	
+	monarch = {		
+		name = "Lyantskoronsky"			
+		adm = 4		
+		dip = 5
+		mil = 6
+		age = 20
+	}
+	add_ruler_personality = conqueror_personality
+	leader = {
+		name = "Dmytro"
+		type = general
+		fire = 1
+		shock = 6
+		manuever = 3
+		siege = 3
+		personality = born_to_the_saddle_personality
+	}
+	disband_all_regiments = yes
+	create_unit_forcelimit_percentage = {
+		type = cavalry
+		special_unit_category = cossacks
+		force_limit_percentage = 1
+	}
+}

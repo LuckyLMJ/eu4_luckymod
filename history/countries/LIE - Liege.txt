@@ -1,0 +1,40 @@
+government = monarchy #theocracy
+add_government_reform = feudalism_reform #leading_clergy_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = wallonian
+capital = 93	# Liège
+add_accepted_culture = flemish
+
+1389.1.1 = {
+	monarch = {
+		name = "Jean VI"
+		birth_date = 1374.1.1
+		dip = 3
+		adm = 1
+		mil = 3
+	}
+}
+
+1418.1.1 = {
+	monarch = {
+		name = "Jean VII"
+		birth_date = 1370.1.1
+		dip = 0
+		adm = 2
+		mil = 2
+	}
+}
+
+1419.5.28 = {
+	monarch = {
+		name = "Jean VIII"
+		dynasty = "van Oranje" #new
+		culture = flemish
+		birth_date = 1396.1.1
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+}

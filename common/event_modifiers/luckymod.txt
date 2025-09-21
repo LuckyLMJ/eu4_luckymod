@@ -1,0 +1,24 @@
+luckymod_free_colonist = {
+	colonists = 1
+	may_explore = yes
+}
+
+luckymod_woods_cleared = {
+	local_development_cost_modifier = -0.05
+	local_attacker_dice_roll_bonus = 1
+	local_friendly_movement_speed = 0.1
+	local_hostile_movement_speed = 0.1
+}
+
+luckymod_forest_cleared = {
+	local_development_cost_modifier = -0.05
+	local_friendly_movement_speed = 0.15
+	local_hostile_movement_speed = 0.15
+}
+
+luckymod_jungle_cleared = {
+	local_development_cost_modifier = -0.05
+	local_attacker_dice_roll_bonus = 1
+	local_friendly_movement_speed = 0.25
+	local_hostile_movement_speed = 0.25
+}
