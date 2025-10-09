@@ -54,5 +54,5 @@ is_ai_player_slot = {
 	# Cancel out AI nerfs
 	defensiveness = 0.5
 	diplomatic_reputation = 3
-	diplomatic_upkeep = 3d:\SteamLibrary\steamapps\common\Europa Universalis IV\common\buildings
+	diplomatic_upkeep = 3
 }
