@@ -21,4 +21,5 @@ bookmark =
 	country = KAR
 	country = SIC
 	country = FIN
+	country = RIG
 }
