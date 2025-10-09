@@ -50,4 +50,9 @@ is_ai_player_slot = {
 	global_unrest = -7.5
 	ae_impact = -0.33
 	governing_capacity_modifier = 0.1
+
+	# Cancel out AI nerfs
+	defensiveness = 0.5
+	diplomatic_reputation = 3
+	diplomatic_upkeep = 3d:\SteamLibrary\steamapps\common\Europa Universalis IV\common\buildings
 }

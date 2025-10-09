@@ -976,6 +976,7 @@ exploration_ideas = {
 
 	quest_for_the_new_world	= {
 		may_explore = yes
+		range = 1.0
 		naval_attrition = -0.1
 	}
 	colonial_ventures = {
@@ -1008,6 +1009,10 @@ exploration_ideas = {
 		#	factor = 0
 		#	is_colonial_nation = yes
 		#}
+		modifier = {
+			factor = 0
+			ai = yes
+		}
 		modifier = {
 			factor = 0
 			is_tribal = yes
@@ -1466,6 +1471,10 @@ expansion_ideas = {
 
 	ai_will_do = {
 		factor = 0.5
+		modifier = {
+			factor = 0
+			ai = yes
+		}
 		modifier = {
 			factor = 10
 			OR = {

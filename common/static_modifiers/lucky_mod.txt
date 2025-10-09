@@ -242,6 +242,7 @@ all_nations = {
 
 	#for some reason defines ANNEX_DIP_COST_PER_DEVELOPMENT doesn't work to change the value... so instead, everyone gets a modifier to change it here.
 	diplomatic_annexation_cost = 0.5 #base is 8/dev, this is 12/dev. Normal cores are 10/dev but dip mana is less used than adm and you can get a bunch of dip annex cost for free, so it's fine.
+	range = 0.5 #all nations get x0.5 colonial range
 }
 base_values = {
 	max_absolutism = 65
@@ -287,7 +288,7 @@ base_values = {
 states_in_hre = {							#bonuses for each non-free city with capital in HRE.. as emperor
 	land_forcelimit	= 0.1 #0.5
 	global_manpower = 0.1 #0.5
-	global_tax_income = 0.1 #new - 
+	global_tax_income = 0.1 #new
 }
 
 free_cities_in_hre = {							#bonuses for each free city in the HRE.. as emperor
@@ -367,8 +368,13 @@ vassal_subject = {
 ai_nation = {
 	diplomats = 1 							# ai has to reserve a diplomat for short term action so it gets an extra to put it on equal footing with player
 	free_leader_pool = 1					# ai needs to have enough pool for 1 general & 1 admiral
-	sailors_recovery_speed = 0.25
-	#defensiveness = -0.25 #new, makes wars against AI faster
+	#sailors_recovery_speed = 0.25
+
+	# AI nerfs:
+	defensiveness = -0.5
+	diplomatic_reputation = -3
+	diplomatic_upkeep = -3
+	colonists = -3
 }
 
 #Rework parliament
@@ -384,8 +390,8 @@ seat_in_parliament = {
 	#...but reduce unrest (as they feel represented)
 	local_unrest = -2
 	
-	#...and reduce dev cost a bit. #we don't actually use this because there's not really any reason to...
-	#local_development_cost = -0.05
+	#...and reduce dev cost a bit.
+	local_development_cost = -0.025
 }
 
 
@@ -419,10 +425,9 @@ BYZ_extra_forcelimit_for_pronoiars = {
 	global_tax_income = 12 #total 2/mo
 }
 
-# Marine buff: now, they're the same stats as normal regiments, but more expensive
+# Marine buff: now, they're the same stats as normal regiments, but slightly more expensive
 marine_regiment = {
-    	regiment_disembark_speed = 2
-
+    regiment_disembark_speed = 2
 	#shock_damage_received = 0.1
-	land_maintenance_modifier = 0.25 #new
+	land_maintenance_modifier = 0.1 #new
 }
