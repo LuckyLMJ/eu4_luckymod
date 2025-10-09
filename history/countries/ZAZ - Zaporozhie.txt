@@ -31,7 +31,7 @@ change_estate_land_share = {
 		name = "Dmytro"
 		type = general
 		fire = 1
-		shock = 6
+		shock = 4
 		manuever = 3
 		siege = 3
 		personality = born_to_the_saddle_personality
@@ -40,6 +40,6 @@ change_estate_land_share = {
 	create_unit_forcelimit_percentage = {
 		type = cavalry
 		special_unit_category = cossacks
-		force_limit_percentage = 1
+		force_limit_percentage = 0.5
 	}
 }

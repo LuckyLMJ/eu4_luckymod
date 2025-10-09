@@ -1985,11 +1985,11 @@ cossacks_reform = {
 	nation_designer_cost = 60
 
 	modifiers = {
-		cavalry_power = 0.2
-		cavalry_cost = -0.2
+		cavalry_power = 0.05
+		cavalry_cost = -0.1
 		cav_to_inf_ratio = 0.25
-		governing_capacity = 50
-		allowed_cossack_fraction = 0.25
+		#governing_capacity = 50
+		allowed_cossack_fraction = 0.33	
 		move_capital_cost_modifier = -0.75
 	}
 

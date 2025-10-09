@@ -7631,8 +7631,8 @@ KHM_ideas = {
 
 ZAZ_ideas = {
 	start = {
-		#loot_amount = 0.25
-		cav_to_inf_ratio = 0.25 #new, replacing above, just makes it so you can run 100% Cav armies for free as Zaporizhia (50% base, 25% Sich Rada, 25% this).
+		# loot_amount = 0.25
+		cavalry_cost = -0.2 #from 0.1
 		manpower_recovery_speed = 0.25 #0.1
 	}
 	
@@ -7651,7 +7651,7 @@ ZAZ_ideas = {
 		development_cost_in_primary_culture = -0.1 #replacing the above, slight nerf
 	}
 	zaz_hetmanate = {
-		global_unrest = -1		
+		global_unrest = -3		
 	}
 	zaz_steppe_riders = {
 		land_attrition = -0.15
@@ -7665,11 +7665,11 @@ ZAZ_ideas = {
 		power_projection_from_insults = 1
 	}
 	zaz_zaporzhian_tolerance = {
-		religious_unity = 0.1 #from 0.25
-		tolerance_heathen = 2 #new
+		religious_unity = 0.25
+		tolerance_heathen = 3 #new
+		tolerance_heretic = 3 #new
 	}
 	zaz_army_first = {
-		cavalry_cost = -0.2 #from 0.1
 		cavalry_power = 0.1 #new
 		#infantry_cost = -0.1
 	}

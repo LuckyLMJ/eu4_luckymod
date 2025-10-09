@@ -122,7 +122,7 @@ own_zaporizhia = {
 		}
 	}
 	
-	global_trade_goods_size = 0.2 # one free production dev in each province, that doesn't cost any govcap.
+	global_trade_goods_size = 0.1 # 1/2 free production dev in each province, that doesn't cost any govcap.
 }
 
 own_leinster = {
