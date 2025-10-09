@@ -7,7 +7,7 @@ bookmark =
 	center = 112
 	default = yes
 	
-	country = BYZ
+	country = GRE
 	country = HOL
 	country = LBV
 	country = GRA
@@ -15,8 +15,10 @@ bookmark =
 	country = ZAZ
 	country = DMS
 	country = DTT
-	
-	easy_country = HOL
-	easy_country = LBV
-	easy_country = BYZ
+	country = LOR
+	country = NAV
+	country = MVA
+	country = KAR
+	country = SIC
+	country = FIN
 }
