@@ -13,3 +13,4 @@ Moravia MVA
 Karaman KAR
 Sicily SIC
 Finland FIN
+Riga RIG

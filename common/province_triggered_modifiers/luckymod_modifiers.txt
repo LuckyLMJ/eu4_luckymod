@@ -142,7 +142,7 @@ own_leinster = {
 		}
 	}
 
-	ship_durability = 0.15
+	ship_durability = 0.05
 	naval_morale = 0.15
 }
 own_schleswig_holstein = {
@@ -196,8 +196,8 @@ own_navarra= {
 		}
 	}
 
-	culture_conversion_cost = -0.05
-	development_cost_in_primary_culture = -0.075
+	culture_conversion_cost = -0.1
+	development_cost_in_primary_culture = -0.05
 }
 
 own_brno = {
@@ -215,8 +215,7 @@ own_brno = {
 		}
 	}
 
-	diplomatic_upkeep = 1
-	diplomatic_reputation = 0.5
+	shock_damage_received = -0.05
 }
 
 own_sicily = {
@@ -277,4 +276,23 @@ own_finland = {
 
 	max_hostile_attrition = 0.5
 	hostile_attrition = 0.5
+}
+
+own_riga = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			livonia_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	yearly_army_professionalism = 0.025
+	drill_decay_modifier = -0.25
 }

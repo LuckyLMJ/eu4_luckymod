@@ -19,6 +19,7 @@ is_ai_player_slot = {
 			tag = KAR
 			tag = SIC
 			tag = FIN
+			tag = RIG
 			was_tag = GRE
 			was_tag = HOL
 			was_tag = LBV
@@ -33,6 +34,7 @@ is_ai_player_slot = {
 			was_tag = KAR
 			was_tag = SIC
 			was_tag = FIN
+			was_tag = RIG
 		}
 	}
 

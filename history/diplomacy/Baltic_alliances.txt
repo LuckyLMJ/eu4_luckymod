@@ -5,3 +5,10 @@
 #	start_date = 1444.1.1
 #	end_date = 1526.3.9
 #}
+
+vassal = {
+	first = RIG
+	second = LIV
+	start_date = 1433.1.1
+	end_date = 1526.3.9
+}
