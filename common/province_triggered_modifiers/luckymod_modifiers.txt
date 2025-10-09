@@ -256,7 +256,8 @@ own_karaman = {
 		}
 	}
 
-	discipline = 0.025
+	# discipline = 0.025
+	can_recruit_janissaries = yes
 }
 
 own_finland = {
