@@ -57,6 +57,7 @@ is_ai_player_slot = {
 	defensiveness = 0.5
 	diplomatic_reputation = 3
 	diplomatic_upkeep = 3
+	development_cost = -0.5
 }
 
 is_raid_boss = {
@@ -78,9 +79,9 @@ is_raid_boss = {
 	land_morale = 0.25
 	land_discipline = 0.10
 
-	monarch_admin_power = 1
-	monarch_diplomatic_power = 1
-	monarch_military_power = 1
+	monarch_admin_power = 2
+	monarch_diplomatic_power = 2
+	monarch_military_power = 2
 
 	global_unrest = -10
 
@@ -93,6 +94,9 @@ is_raid_boss = {
 	diplomatic_upkeep = 3
 	colonists = 3
 
-	yearly_doom_reduction = 100
+	yearly_doom_reduction = 200
 	stability_cost_modifier = -1
+	global_institution_spread = 10
+	technology_cost = -0.25
+	development_cost = -1.0
 }

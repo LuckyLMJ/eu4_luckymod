@@ -375,6 +375,7 @@ ai_nation = {
 	diplomatic_reputation = -3
 	diplomatic_upkeep = -3
 	colonists = -3
+	development_cost = 0.5
 }
 
 #Rework parliament
