@@ -1837,7 +1837,7 @@ spice_islands_modifier = { #Main entrepots of the Mollucas, point of origin for 
 	trade_goods_size = 3.0
 }
 
-skanemarket = { #Skånemarknaden - Biggest Herring Market in Europe
+skanemarket = { #Skï¿½nemarknaden - Biggest Herring Market in Europe
 	trade_goods_size = 2
 }
 
@@ -13066,23 +13066,23 @@ liv_the_general = {
 
 #Province modifiers
 estate_burghers_forest_expansion_forest = {
-	local_development_cost = -0.15
+	local_development_cost_modifier = -0.10
 }
 
 estate_burghers_forest_expansion_woods = {
-	local_development_cost = -0.10
+	local_development_cost_modifier = -0.05
 }
 
 estate_burghers_mountain_expansion_mountains = {
-	local_development_cost = -0.175
+	local_development_cost_modifier = -0.15
 }
 
 estate_burghers_mountain_expansion_highlands = {
-	local_development_cost = -0.10
+	local_development_cost_modifier = -0.10
 }
 
 estate_burghers_mountain_expansion_hills = {
-	local_development_cost = -0.125
+	local_development_cost_modifier = -0.10
 }
 
 estate_nobles_religious_conscription_cathedral = {
