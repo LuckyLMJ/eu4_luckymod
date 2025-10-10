@@ -288,12 +288,20 @@ own_riga = {
 		owner = {
 			livonia_area = {
 				type = all
-				owned_by = PREV
-				controlled_by = PREV
+				OR = {
+					AND = {
+						owned_by = PREV
+						controlled_by = PREV
+					}
+					AND = {
+						country_or_non_sovereign_subject_holds = PREV
+						controlled_by = owner
+					}
+				}
 			}
 		}
 	}
 
-	yearly_army_professionalism = 0.025
+	yearly_army_professionalism = 0.0025
 	drill_decay_modifier = -0.25
 }
