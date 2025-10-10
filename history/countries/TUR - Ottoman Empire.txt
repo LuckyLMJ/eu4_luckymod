@@ -11,7 +11,7 @@ historical_rival = HAB
 historical_rival = TIM
 capital = 317 # Bursa
 national_focus = MIL
-add_army_professionalism = 0.1
+#add_army_professionalism = 0.1
 religious_school = hanafi_school
 
 change_estate_land_share = {
