@@ -39,3 +39,7 @@ religious_school = hanafi_school
 unlock_estate = {
 	estate = estate_janissaries
 }
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}

@@ -53,6 +53,7 @@ country_decisions = {
 				continent = europe
 				culture = turkish
 			}
+			owns = 151
 			
 			adm_tech = 5 #new
 		}

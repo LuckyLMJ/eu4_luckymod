@@ -54,6 +54,7 @@ country_decisions = {
 			151 = {		# Constantinople
 				is_state = yes
 			}
+			owns = 321
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
