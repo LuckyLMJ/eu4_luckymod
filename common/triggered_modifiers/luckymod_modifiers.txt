@@ -77,7 +77,7 @@ is_raid_boss = {
 	land_forcelimit = 10
 
 	land_morale = 0.25
-	land_discipline = 0.10
+	discipline = 0.10
 
 	monarch_admin_power = 2
 	monarch_diplomatic_power = 2
