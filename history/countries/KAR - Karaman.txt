@@ -36,3 +36,6 @@ religious_school = hanafi_school
 		mil = 1 #0
 	}
 }
+unlock_estate = {
+	estate = estate_janissaries
+}

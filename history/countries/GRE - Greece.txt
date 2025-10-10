@@ -5,7 +5,7 @@ primary_culture = greek
 religion = orthodox
 technology_group = eastern
 historical_rival = TUR
-capital = 151 # Constantinople
+capital = 146 # Athens
 
 #set_estate_privilege = estate_nobles_deteriorating_army
 #set_estate_privilege = estate_church_union_of_the_churches

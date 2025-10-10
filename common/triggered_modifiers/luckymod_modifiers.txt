@@ -38,9 +38,9 @@ is_ai_player_slot = {
 		}
 	}
 
-	global_manpower = 9
-	global_tax_income = 45
-	land_forcelimit = 9
+	global_manpower = 4
+	global_tax_income = 9
+	land_forcelimit = 4
 
 	land_morale = 0.10
 	land_discipline = 0.05

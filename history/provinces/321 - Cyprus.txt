@@ -1,6 +1,6 @@
 # 321 - Cyprus
-owner = CYP
-controller = CYP
+owner = KAR
+controller = KAR
 culture = greek
 religion = orthodox
 capital = "Nicosia"
@@ -12,6 +12,7 @@ base_manpower = 3
 is_city = yes
 fort_15th = yes
 add_core = CYP
+add_core = KAR
 discovered_by = western
 discovered_by = eastern
 discovered_by = nomad_group
