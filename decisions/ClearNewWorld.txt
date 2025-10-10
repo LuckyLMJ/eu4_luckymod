@@ -15,6 +15,11 @@ country_decisions = {
 				}
 				
 				north_america = {
+					limit = {
+						NOT = {
+							owned_by = AZT
+						}
+					}
 					set_base_tax = 1
 					set_base_production = 1
 					set_base_manpower = 1
@@ -22,6 +27,11 @@ country_decisions = {
 					decolonize = THIS
 				}
 				south_america = {
+					limit = {
+						NOT = {
+							owned_by = INC
+						}
+					}
 					set_base_tax = 1
 					set_base_production = 1
 					set_base_manpower = 1

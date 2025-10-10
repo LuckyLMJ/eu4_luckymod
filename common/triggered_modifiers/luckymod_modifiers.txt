@@ -58,3 +58,41 @@ is_ai_player_slot = {
 	diplomatic_reputation = 3
 	diplomatic_upkeep = 3
 }
+
+is_raid_boss = {
+	potential = {
+		ai = yes
+	}
+
+	trigger = {
+		OR = {
+			tag = AZT
+			tag = INC
+		}
+	}
+
+	global_manpower = 10
+	global_tax_income = 24
+	land_forcelimit = 10
+
+	land_morale = 0.25
+	land_discipline = 0.10
+
+	monarch_admin_power = 1
+	monarch_diplomatic_power = 1
+	monarch_military_power = 1
+
+	global_unrest = -10
+
+	governing_capacity_modifier = 0.5
+	governing_capacity = 200
+
+	# Cancel out AI nerfs
+	defensiveness = 0.5
+	diplomatic_reputation = 3
+	diplomatic_upkeep = 3
+	colonists = 3
+
+	yearly_doom_reduction = 100
+	stability_cost_modifier = -1
+}
