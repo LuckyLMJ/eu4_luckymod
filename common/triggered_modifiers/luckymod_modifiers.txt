@@ -123,5 +123,5 @@ is_colony = {
 		is_colonial_nation = yes
 	}
 
-	development_cost = -0.5 # counteracts +50% from being a subject.
+	development_cost_modifier = -0.5 # counteracts +50% from being a subject.
 }
