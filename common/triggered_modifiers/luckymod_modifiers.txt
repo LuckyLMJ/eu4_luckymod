@@ -72,6 +72,8 @@ is_raid_boss = {
 		}
 	}
 
+	can_not_declare_war = yes
+	
 	global_manpower = 10
 	global_tax_income = 24
 	land_forcelimit = 10
