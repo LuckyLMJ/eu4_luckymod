@@ -2076,7 +2076,7 @@ sultanate_of_rum_reform = {
 		province_warscore_cost = -0.05
 		legitimacy = 0.5
 		max_absolutism = 5
-		governing_capacity = 150
+		#governing_capacity = 150
 	}
 
 	custom_attributes = {
