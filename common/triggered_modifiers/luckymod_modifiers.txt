@@ -100,3 +100,28 @@ is_raid_boss = {
 	technology_cost = -0.25
 	development_cost = -1.0
 }
+
+is_ai_colony = {
+	potential = {
+		ai = yes
+	}
+
+	trigger = {
+		is_colonial_nation = yes
+	}
+
+	colonists = 3
+	development_cost = -0.5
+}
+
+is_colony = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		is_colonial_nation = yes
+	}
+
+	development_cost = -0.5 # counteracts +50% from being a subject.
+}
