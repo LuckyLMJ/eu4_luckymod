@@ -75,7 +75,7 @@ country_decisions = {
 						limit = {
 							is_empty = no
 						}
-						change_native_size = 3000 
+						change_native_size = 30
 						change_native_hostileness = 5
 						change_native_ferocity = 5
 					}
@@ -102,7 +102,7 @@ country_decisions = {
 						limit = {
 							is_empty = no
 						}
-						change_native_size = 5000 
+						change_native_size = 50
 						change_native_hostileness = 5
 						change_native_ferocity = 5
 					}
