@@ -1,0 +1,32 @@
+positive_piety = { #As of 1.23 Legalism
+	technology_cost = -0.1
+	global_manpower_modifier = 0.25
+	fort_maintenance_modifier = -0.25
+	defensiveness = -0.2
+	siege_ability = -0.1
+	diplomatic_reputation = 2
+	fire_damage = 0.1
+	shock_damage = -0.05
+	global_tax_modifier = 0.25
+	brahmins_muslim_loyalty_modifier = -0.1
+	church_loyalty_modifier = 0.1
+	piety_dhimmi_loyalty_modifier = -0.1
+	monthly_piety = -0.002
+}
+
+#For convenience, its multiplied by negative piety in code.
+negative_piety = { #As of 1.23 Mysticism
+	land_morale = 0.10
+	global_missionary_strength = 0.03
+	idea_cost = -0.1
+	religious_unity = 0.2
+	fire_damage = -0.05
+	shock_damage = 0.1
+	fort_maintenance_modifier = 0.2
+	defensiveness = 0.1
+	siege_ability = 0.2
+	brahmins_muslim_loyalty_modifier = 0.1
+	piety_church_loyalty_modifier = -0.1
+	dhimmi_loyalty_modifier = 0.1
+	monthly_piety = 0.002
+}
