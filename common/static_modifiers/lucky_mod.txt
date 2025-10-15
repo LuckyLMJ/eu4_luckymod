@@ -257,7 +257,7 @@ base_values = {
 	tolerance_heathen = -4
 	tolerance_heretic = -3
 	global_missionary_strength = 0.02
-	global_manpower = 2.0 #1.0
+	global_manpower = 5.0 #1.0
 	advisor_pool = 3
 	colonist_placement_chance = 0.1
 	free_leader_pool = 1
@@ -459,4 +459,41 @@ high_army_professionalism = {
 	drill_decay_modifier = -0.5
 	allowed_samurai_fraction = 0.1
 	discipline = 0.05 #new
+}
+
+crown_colony_overlord = {
+	#merchants = 1
+	#global_trade_power = 0.05
+	global_colonial_growth = 10
+}
+
+private_enterprise_overlord = {
+	merchants = 1
+	#global_trade_power = 0.05
+	#global_tariffs = -0.05
+}
+
+self_governing_colony_overlord = {
+	#merchants = 1
+	#global_trade_power = 0.05
+	#global_tariffs = -0.10
+}
+
+crown_colony_subject = {
+	land_forcelimit_modifier = 0.10
+	#global_colonial_growth = 10
+}
+
+private_enterprise_subject = {
+	#global_ship_trade_power = 0.2
+	#global_trade_goods_size_modifier = 0.2
+	#naval_tradition_from_trade = 0.1
+	#ship_power_propagation = 0.1
+	naval_forcelimit_modifier = 0.33
+}
+
+self_governing_colony_subject = {
+	colonists = 1
+	#development_cost = -0.15
+	#liberty_desire = 25
 }

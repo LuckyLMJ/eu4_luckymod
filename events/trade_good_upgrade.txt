@@ -156,6 +156,18 @@ province_event = {
 					culture_group = byzantine
 				}
 			}
+			2 = {
+				change_trade_goods = chinaware
+				modifier = {
+					factor = 0
+					NOT = {
+						trade_goods = spices
+					}
+				}
+			}
+			1 = {
+				change_trade_goods = gold
+			}
 		}
 	}
 	option = {

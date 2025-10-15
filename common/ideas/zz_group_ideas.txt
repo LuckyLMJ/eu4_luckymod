@@ -81,8 +81,11 @@ colonial_ideas = {
 	start = {
 		#development_cost = -0.1
 		#no_religion_penalty = yes
-		development_cost_in_primary_culture = -0.15
-		religious_unity = 0.50
+		
+		#development_cost_in_primary_culture = -0.1
+		#religious_unity = 0.50
+		land_forcelimit_modifier = 0.1
+		naval_forcelimit_modifier = 0.1
 	}
 	
 	bonus = {

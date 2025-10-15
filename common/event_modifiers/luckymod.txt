@@ -22,3 +22,7 @@ luckymod_jungle_cleared = {
 	local_friendly_movement_speed = 0.25
 	local_hostile_movement_speed = 0.25
 }
+
+luckymod_uncolonizable = {
+	local_colonial_growth = -1000
+}
