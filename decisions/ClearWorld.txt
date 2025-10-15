@@ -96,7 +96,7 @@ country_decisions = {
 						NOT = {
 							OR = {
 								area = shahrizor_area
-								area = azerbaijan_area
+								area = tabriz_area
 								area = luristan_area
 								area = khuzestan_area
 							}
