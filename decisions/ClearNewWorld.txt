@@ -13,6 +13,24 @@ country_decisions = {
 				1 = {
 					set_province_flag = luckymod_cleared_new_world
 				}
+
+				AZT = {
+					every_owned_province = {
+						add_province_modifier = { 
+							name = luckymod_aztec_inca_reduced_warscore
+							duration = -1  
+						}
+					}
+				}
+
+				INC = {
+					every_owned_province = {
+						add_province_modifier = { 
+							name = luckymod_aztec_inca_reduced_warscore
+							duration = -1  
+						}
+					}
+				}
 				
 				north_america = {
 					limit = {

@@ -26,3 +26,7 @@ luckymod_jungle_cleared = {
 luckymod_uncolonizable = {
 	local_colonial_growth = -1000
 }
+
+luckymod_aztec_inca_reduced_warscore = {
+	local_warscore_cost_modifier = -0.75
+}
