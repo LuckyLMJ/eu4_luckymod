@@ -55,8 +55,8 @@ is_ai_player_slot = {
 
 	# Cancel out AI nerfs
 	defensiveness = 0.5
-	diplomatic_reputation = 3
-	diplomatic_upkeep = 3
+	#diplomatic_reputation = 3
+	#diplomatic_upkeep = 3
 	development_cost = -0.5
 }
 
@@ -74,9 +74,9 @@ is_raid_boss = {
 
 	can_not_declare_war = yes
 	
-	global_manpower = 10
-	global_tax_income = 24
-	land_forcelimit = 10
+	#global_manpower = 4
+	#global_tax_income = 24
+	#land_forcelimit = 4
 
 	land_morale = 0.25
 	discipline = 0.10
@@ -98,8 +98,7 @@ is_raid_boss = {
 
 	yearly_doom_reduction = 200
 	stability_cost_modifier = -1
-	global_institution_spread = 10
-	technology_cost = -0.25
+	technology_cost = 0.25
 	development_cost = -1.0
 }
 
