@@ -1197,3 +1197,25 @@ trade_company_polynesia = {
 	}
 }
 
+trade_company_gulf_of_aden = {
+	color = { 96 75 65 }
+	
+	provinces = {
+		401 2341 2342 #dhofar_area
+		402 1099 4284 #mahra_area
+		387 2346 4279 #tihama_al_yemen_area
+		390 2344 4281 #upper_yemen_area
+		388 2345 4280 #yemen_area
+		386 391 4282 #asir_area
+		389 2343 4283 #hadramut_area
+	}
+	
+	# Specific
+	# Generic
+	names = {
+		name = "TRADE_COMPANY_GULF_OF_ADEN_Root_Culture_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_GULF_OF_ADEN_African_Trade_Company"
+	}
+}
