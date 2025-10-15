@@ -707,6 +707,9 @@ gold = {
 			NOT = { area = amapa_area }
 			NOT = { area = ucayali_area }
 			NOT = { area = amazon_area }
+
+			#new
+			NOT = {superregion = africa_superregion}
 		}
 		modifier = {
 			factor = 0
@@ -717,6 +720,9 @@ gold = {
 			NOT = { region = australia_region }
 			NOT = { region = south_africa_region }
 			NOT = { region = central_africa_region }
+
+			#new
+			NOT = {superregion = africa_superregion}
 		}
 		modifier = {
 			factor = 0
@@ -750,7 +756,7 @@ gold = {
 			region = peru_region
 		}
 		modifier = {
-			factor = 4.0
+			factor = 16.0
 			OR = {
 				province_id = 852		# Mexico
 				province_id = 853		# Huastec
