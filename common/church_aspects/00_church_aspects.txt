@@ -1,5 +1,5 @@
 organised_through_bishops_aspect = {
-	cost = 100
+	cost = 200
 	effect = {
 		hidden_effect = { 
 			clr_protestant_aspects_buffs = yes
@@ -10,7 +10,8 @@ organised_through_bishops_aspect = {
 		}
 	}
 	modifier = {
-		development_cost = -0.05
+		development_cost = -0.1
+		governing_capacity = -0.15
 	}
 	ai_will_do = {
 		factor = 15
@@ -33,7 +34,11 @@ priests_may_marry_aspect = {
 		}
 	}
 	modifier = {
-		same_religion_advisor_cost = -0.15
+		same_religion_advisor_cost = -0.33
+		devotion = -1
+		legitimacy = -1
+ 		meritocracy = -0.5
+		republican_tradition = -0.2
 	}
 	ai_will_do = {
 		factor = 10
@@ -61,7 +66,7 @@ adult_baptism_aspect = {
 		}
 	}
 	modifier = { 
-		global_missionary_strength = 0.01
+		global_heretic_missionary_strength = 0.025
 	}
 	ai_will_do = {
 		factor = 12
@@ -92,7 +97,7 @@ holy_sacraments_aspect = {
 		}
 	}
 	modifier = { 
-		discipline = 0.025
+		discipline = 0.05
 	}
 	ai_will_do = {
 		factor = 12
@@ -115,8 +120,10 @@ saints_accept_prayers_aspect = {
 		}
 	}
 	modifier = { 
-		land_morale = 0.05
-		naval_morale = 0.05
+		extra_manpower_at_religious_war = yes
+		discipline = -0.1
+		land_morale = 0.075
+		naval_morale = 0.075
 	}
 	ai_will_do = {
 		factor = 12
@@ -139,7 +146,7 @@ icons_images_aspect = {
 		}
 	}
 	modifier = { 
-		prestige = 0.5
+		prestige_decay = -0.02
 	}
 	ai_will_do = {
 		factor = 12
@@ -162,10 +169,10 @@ legalised_divorces_aspect = {
 		}
 	}
 	modifier = {
-		legitimacy = 0.5
-		devotion = 0.5
-		horde_unity = 0.5
-		republican_tradition = 0.2
+		legitimacy = 2
+		devotion = 2
+		horde_unity = 1
+		republican_tradition = 0.5
 	}
 	ai_will_do = {
 		factor = 6
@@ -200,7 +207,7 @@ heretics_deported_aspect = {
 		}
 	}
 	modifier = {
-		global_colonial_growth = 15
+		global_colonial_growth = 25
 	}
 	ai_will_do = {
 		factor = 10
@@ -209,14 +216,14 @@ heretics_deported_aspect = {
 			num_of_colonies = 1
 		}
 		modifier = {
-			factor = 2
+			factor = 7
 			num_of_colonists = 2
 		}
 	}
 }
 
 parish_registers_aspect = {
-	cost = 100
+	cost = 200
 	effect = {
 		hidden_effect = {
 			clr_protestant_aspects_buffs = yes
@@ -227,7 +234,7 @@ parish_registers_aspect = {
 		}
 	}
 	modifier = {
-		free_adm_policy = 1 
+		country_admin_power = 1
 	}
 	ai_will_do = {
 		factor = 5
@@ -247,6 +254,7 @@ individual_creeds_aspect = {
 	}
 	modifier = { 
 		idea_cost = -0.05
+		innovativeness_gain = 0.5
 	}
 	ai_will_do = {
 		factor = 15
@@ -265,7 +273,7 @@ allow_usury_aspect = {
 		}
 	}
 	modifier = { 
-		production_efficiency = 0.1
+		production_efficiency = 0.15
 	}
 	ai_will_do = {
 		factor = 17
@@ -292,7 +300,7 @@ translated_bibles_aspect = {
 		}
 	}
 	modifier = {
-		global_unrest = -1
+		global_unrest = -3
 	}
 	ai_will_do = {
 		factor = 10
@@ -319,7 +327,7 @@ justified_religious_war_aspect = {
 		}
 	}
 	modifier = {
-		ae_impact = -0.05
+		ae_impact = -0.5
 	}
 	ai_will_do = {
 		factor = 1
@@ -342,7 +350,7 @@ war_preaches_aspect = {
 		}
 	}
 	modifier = {
-		war_exhaustion = -0.03
+		war_exhaustion = -0.1
 	}
 	ai_will_do = {
 		factor = 2
@@ -393,7 +401,8 @@ anglican_aspect = {
 		}
 	}
 	modifier = {
-		tolerance_of_heretics_capacity = 1
+		tolerance_of_heretics_capacity = 2
+		tolerance_heretic = 6
 	}
 	ai_will_do = {
 		factor = 2
