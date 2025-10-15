@@ -305,3 +305,39 @@ own_riga = {
 	yearly_army_professionalism = 0.0025
 	drill_decay_modifier = -0.25
 }
+
+own_armenia = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			armenia_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	artillery_fire = 0.25
+}
+
+own_yemen = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+		owner = {
+			upper_yemen_area = {
+				type = all
+				owned_by = PREV
+				controlled_by = PREV
+			}
+		}
+	}
+
+	shock_damage_received = -0.075
+}

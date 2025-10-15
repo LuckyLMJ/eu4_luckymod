@@ -20,6 +20,8 @@ is_ai_player_slot = {
 			tag = SIC
 			tag = FIN
 			tag = RIG
+			tag = RAS
+			tag = MLK
 			was_tag = GRE
 			was_tag = HOL
 			was_tag = LBV
@@ -35,6 +37,8 @@ is_ai_player_slot = {
 			was_tag = SIC
 			was_tag = FIN
 			was_tag = RIG
+			was_tag = RAS
+			was_tag = MLK
 		}
 	}
 

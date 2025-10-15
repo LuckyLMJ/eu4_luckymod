@@ -14,3 +14,6 @@ Karaman KAR
 Sicily SIC
 Finland FIN
 Riga RIG
+
+Karabakh MLK
+Rassids RAS

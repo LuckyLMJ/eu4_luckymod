@@ -92,6 +92,16 @@ country_decisions = {
 					}
 				}
 				persia_region = {
+					limit = {
+						NOT = {
+							OR = {
+								area = shahrizor_area
+								area = azerbaijan_area
+								area = luristan_area
+								area = khuzestan_area
+							}
+						}
+					}
 					set_base_tax = 1
 					set_base_production = 1
 					set_base_manpower = 1

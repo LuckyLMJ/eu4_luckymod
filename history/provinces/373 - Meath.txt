@@ -17,6 +17,8 @@ discovered_by = ottoman
 discovered_by = eastern
 add_core = DMS
 
+fort_15th = yes
+
 add_province_triggered_modifier = own_leinster
 
 center_of_trade = 1 #New: slight buff

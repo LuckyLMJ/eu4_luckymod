@@ -22,4 +22,6 @@ bookmark =
 	country = SIC
 	country = FIN
 	country = RIG
+	country = MLK
+	country = RAS
 }
