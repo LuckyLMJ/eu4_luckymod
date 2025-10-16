@@ -6,7 +6,7 @@ local_autonomy_trade_company = {
     local_autonomy = -1
 }
 land_province = {
-    local_autonomy = 0.5
+    local_autonomy = 0.25
     max_attrition = 10
     local_manpower_modifier = 0.25
     local_has_musketeers = yes
@@ -15,7 +15,7 @@ land_province = {
 }
 capital_city = {
 	fort_level = 1
-	local_autonomy = -0.15
+	local_autonomy = -0.25
 }
 in_capital_state = {
 	local_institution_spread = 0.05
@@ -267,7 +267,7 @@ base_values = {
 	horde_unity = -2
 	devotion = -0.5
 	meritocracy = -2
-	governing_capacity = 200
+	governing_capacity = 300
 	num_accepted_cultures = 1
 	monthly_splendor = 1
 	artillery_levels_available_vs_fort = 5
@@ -322,7 +322,7 @@ over_governing_capacity_modifier = {
 
 #Scales with unused capacity, being at full capacity means 0% of the modifier
 reverse_under_governing_capacity_modifier = {
-	global_autonomy = -0.5
+	global_autonomy = -0.25
 }
 
 #Development now decreases province governing cost a tiny bit. Encourages tall play, as high dev provinces give you more dev per gov capacity.
