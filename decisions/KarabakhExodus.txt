@@ -1,0 +1,66 @@
+country_decisions = {
+	karabakh_exodus = {
+		potential = {
+			is_or_was_tag = {tag = MLK}
+			NOT = {
+				1 = {
+					has_province_flag = luckymod_karabakh_exodus
+				}
+			}
+		}
+		allow = {
+			OR = {
+				revanchism = 50
+				NOT = {
+					num_of_owned_provinces_with = {
+						value = 10
+						is_core = ROOT
+					}
+				}
+			}
+			is_year = 1450
+		}
+		effect = {
+			hidden_effect = {
+				1 = {
+					set_province_flag = luckymod_karabakh_exodus
+				}
+				ETH = {
+					1227 = { #Aksum
+						create_colony = 1000
+
+						cede_province = ETH
+						change_controller = ETH
+						add_core = ETH
+
+						add_base_tax = 3
+						add_base_production = 3
+						add_base_manpower = 3
+					}
+
+					define_ruler = {
+						dynasty = ROOT
+						culture = ROOT
+						religion = ROOT
+						adm = 5
+						dip = 5
+						mil = 5
+						age = 12
+						claim = 100
+					}
+
+					add_country_modifier = {
+						name = luckymod_ethiopia
+						duration = 18250 #50 years
+					}
+				}
+
+				switch_tag = ETH
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
