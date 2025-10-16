@@ -53,6 +53,8 @@ country_decisions = {
 						name = luckymod_ethiopia
 						duration = 18250 #50 years
 					}
+
+					change_technology_group = eastern
 				}
 
 				switch_tag = ETH

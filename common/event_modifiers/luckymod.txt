@@ -33,10 +33,13 @@ luckymod_aztec_inca_reduced_warscore = {
 
 luckymod_ethiopia = {
 	colonists = 2
-	colonist_placement_chance = 0.5
+	colonist_placement_chance = 0.75
+	global_colonial_growth = 75
 	colony_cost_modifier = -0.5
 	land_morale = 0.3
 	land_forcelimit = 15
 	global_manpower = 15
 	global_tax_income = 60
+
+	auto_explore_adjacent_to_colony = yes
 }
