@@ -3,35 +3,8 @@ country_decisions = {
 		potential = {
 			OR = {
 				ai = no
-				# one of the player nations
-				tag = GRE
-				tag = HOL
-				tag = LBV
-				tag = GRA
-				tag = LAN
-				tag = ZAZ
-				tag = DMS
-				tag = DTT
-				tag = LOR
-				tag = NAV
-				tag = MVA
-				tag = KAR
-				tag = SIC
-				tag = FIN
-				was_tag = GRE
-				was_tag = HOL
-				was_tag = LBV
-				was_tag = GRA
-				was_tag = LAN
-				was_tag = ZAZ
-				was_tag = DMS
-				was_tag = DTT
-				was_tag = LOR
-				was_tag = NAV
-				was_tag = MVA
-				was_tag = KAR
-				was_tag = SIC
-				was_tag = FIN
+				
+				tag = ETH
 			}
 			NOT = {
 				has_country_modifier = luckymod_free_colonist

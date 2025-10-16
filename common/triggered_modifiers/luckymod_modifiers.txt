@@ -22,6 +22,7 @@ is_ai_player_slot = {
 			tag = RIG
 			tag = RAS
 			tag = MLK
+			tag = ETH
 			was_tag = GRE
 			was_tag = HOL
 			was_tag = LBV
@@ -39,6 +40,7 @@ is_ai_player_slot = {
 			was_tag = RIG
 			was_tag = RAS
 			was_tag = MLK
+			was_tag = ETH
 		}
 	}
 
@@ -117,6 +119,18 @@ is_ai_colony = {
 
 	colonists = 3
 	development_cost = -0.5
+}
+
+is_ai_ethiopia = {
+	potential = {
+		ai = yes
+	}
+
+	trigger = {
+		is_or_was_tag = {tag = ETH}
+	}
+
+	colonists = 3
 }
 
 is_colony = {
