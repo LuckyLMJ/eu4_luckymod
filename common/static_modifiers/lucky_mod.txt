@@ -497,3 +497,39 @@ self_governing_colony_subject = {
 	#development_cost = -0.15
 	#liberty_desire = 25
 }
+
+# Multiplied by current Legitimacy - 50
+legitimacy = {
+	core_creation = -0.1
+	prestige_decay = -0.02
+	diplomatic_reputation = 4
+	land_morale = 0.1
+	all_power_cost = -0.04
+
+	monthly_militarized_society = 0.05
+}
+
+# Multiplied by current Devotion - 50
+devotion = {
+	enforce_religion_cost = -1.5
+	land_morale = 0.1
+	all_power_cost = -0.04
+	tolerance_own = 4
+	tolerance_heathen = -2
+	tolerance_heretic = -2
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.5
+	prestige_per_development_from_conversion = 0.2
+	warscore_cost_vs_other_religion = -0.05
+	devotion = -0.5
+}	
+
+republican_tradition = {
+	reelection_cost = 0.2
+	land_morale = 0.05
+	all_power_cost = -0.02
+}
+
+inverse_republican_tradition = {
+	reelection_cost = -0.1
+}
