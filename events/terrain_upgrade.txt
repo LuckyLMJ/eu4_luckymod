@@ -259,3 +259,191 @@ province_event = {
 		}
 	}
 }	
+
+province_event = {
+	id = terrain_upgrade.4
+	title = terrain_upgrade.4.t
+	desc = terrain_upgrade.4.d
+	picture = TRADEGOODS_eventPicture
+	trigger = {
+		OR = {
+			development = 10
+			num_of_buildings_in_province = 3
+		}
+		OR = {
+			has_terrain = desert
+		}
+		NOT = {
+			has_province_modifier = luckymod_desert_irrigated
+		}
+	}
+	mean_time_to_happen = {
+		months = 1800 #150 years
+		modifier = {
+			factor = 10000
+			NOT = {
+				controlled_by = owner
+			}
+		}
+		modifier = {
+			factor = 10000
+			devastation = 1
+		}
+		modifier = {
+			factor = 0.75
+			development = 15
+		}
+		modifier = {
+			factor = 0.75
+			development = 20
+		}
+		modifier = {
+			factor = 0.75
+			development = 25
+		}
+		modifier = {
+			factor = 0.75
+			development = 30
+		}
+		modifier = {
+			factor = 0.75
+			development = 35
+		}
+		modifier = {
+			factor = 0.75
+			development = 40
+		}
+		modifier = {
+			factor = 0.5
+			development = 45
+		}
+		modifier = {
+			factor = 0.01
+			development = 50
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 1
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 3
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 5
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 7
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 9
+		}
+	}
+	option = {
+		name = terrain_upgrade.4.a
+		ai_chance = {factor = 100}
+		add_province_modifier = {
+			name = luckymod_desert_irrigated
+			duration = -1
+		}
+	}
+}
+
+province_event = {
+	id = terrain_upgrade.5
+	title = terrain_upgrade.5.t
+	desc = terrain_upgrade.5.d
+	picture = TRADEGOODS_eventPicture
+	trigger = {
+		OR = {
+			development = 10
+			num_of_buildings_in_province = 3
+		}
+		OR = {
+			has_terrain = desert
+		}
+		NOT = {
+			has_province_modifier = luckymod_coastal_desert_irrigated
+		}
+	}
+	mean_time_to_happen = {
+		months = 1200 #100 years
+		modifier = {
+			factor = 10000
+			NOT = {
+				controlled_by = owner
+			}
+		}
+		modifier = {
+			factor = 10000
+			devastation = 1
+		}
+		modifier = {
+			factor = 0.75
+			development = 10
+		}
+		modifier = {
+			factor = 0.75
+			development = 15
+		}
+		modifier = {
+			factor = 0.75
+			development = 20
+		}
+		modifier = {
+			factor = 0.75
+			development = 25
+		}
+		modifier = {
+			factor = 0.75
+			development = 30
+		}
+		modifier = {
+			factor = 0.75
+			development = 35
+		}
+		modifier = {
+			factor = 0.75
+			development = 40
+		}
+		modifier = {
+			factor = 0.5
+			development = 45
+		}
+		modifier = {
+			factor = 0.01
+			development = 50
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 1
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 3
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 5
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 7
+		}
+		modifier = {
+			factor = 0.75
+			num_of_buildings_in_province = 9
+		}
+	}
+	option = {
+		name = terrain_upgrade.5.a
+		ai_chance = {factor = 100}
+		add_province_modifier = {
+			name = luckymod_coastal_desert_irrigated
+			duration = -1
+		}
+	}
+}

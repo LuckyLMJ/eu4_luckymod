@@ -33,9 +33,11 @@ country_decisions = {
 						change_controller = ETH
 						add_core = ETH
 
-						add_base_tax = 3
-						add_base_production = 3
-						add_base_manpower = 3
+						add_base_tax = 4
+						add_base_production = 4
+						add_base_manpower = 4
+
+						change_trade_goods = cloth
 					}
 
 					define_ruler = {
@@ -45,7 +47,7 @@ country_decisions = {
 						adm = 5
 						dip = 5
 						mil = 5
-						age = 12
+						age = 20
 						claim = 100
 					}
 
@@ -55,6 +57,11 @@ country_decisions = {
 					}
 
 					change_technology_group = eastern
+
+					add_splendor = 800	
+
+					adopt_reform_progress = ROOT
+
 				}
 
 				switch_tag = ETH
