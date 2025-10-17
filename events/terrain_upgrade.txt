@@ -363,7 +363,7 @@ province_event = {
 			num_of_buildings_in_province = 3
 		}
 		OR = {
-			has_terrain = desert
+			has_terrain = coastal_desert
 		}
 		NOT = {
 			has_province_modifier = luckymod_coastal_desert_irrigated
