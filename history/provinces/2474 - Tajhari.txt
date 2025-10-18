@@ -1,9 +1,9 @@
 # - Tajhari (Idehan Murzuq)
 
-owner = FZA
-controller = FZA 
-add_core = FZA
-is_city = yes
+#owner = FZA
+#controller = FZA 
+#add_core = FZA
+#is_city = yes
 culture = tunisian
 religion = sunni
 capital = "Tajhari"
