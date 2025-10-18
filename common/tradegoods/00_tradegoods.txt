@@ -675,7 +675,7 @@ gold = {
 	color = { 1.0 0.84 0.19 }
 
 	province = {
-		local_production_efficiency = -0.25
+		trade_goods_size_modifier = -0.25
 	}
 	
 	chance = {

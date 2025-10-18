@@ -1,6 +1,6 @@
 # 1880 - Sundgau
-owner = TIR
-controller = TIR
+owner = LOR
+controller = LOR
 add_core = TIR
 capital = "Altkirch"
 is_city = yes

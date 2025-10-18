@@ -240,6 +240,8 @@ all_nations = {
 	#removed dev edict, replaced with this. this is a nerf - it's intentional
 	development_cost_in_primary_culture = -0.1
 
+	ae_impact = -0.2
+
 	#for some reason defines ANNEX_DIP_COST_PER_DEVELOPMENT doesn't work to change the value... so instead, everyone gets a modifier to change it here.
 	diplomatic_annexation_cost = 0.5 #base is 8/dev, this is 12/dev. Normal cores are 10/dev but dip mana is less used than adm and you can get a bunch of dip annex cost for free, so it's fine.
 	range = -0.5 #all nations get x0.5 colonial range

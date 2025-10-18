@@ -11,3 +11,10 @@
 #	start_date = 1444.1.1
 #	end_date = 1500.1.1
 #}
+
+union = {
+	first = MVA
+	second = BOH
+	start_date = 1419.1.1
+	end_date = 1800.1.1
+}

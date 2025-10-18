@@ -13,5 +13,7 @@ capital = 28	# Nyland
 		adm = 4
 		dip = 6
 		mil = 3
+		name = "No"
+		dynasty = "Ruler"
 	}
 }

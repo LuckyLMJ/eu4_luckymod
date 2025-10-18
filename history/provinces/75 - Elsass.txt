@@ -1,6 +1,6 @@
 # 75 Elsass - Principal cities: Strasbourg
-owner = ALS
-controller = ALS
+owner = LOR
+controller = LOR
 capital = "Straﬂburg"
 is_city = yes
 culture = swabian
@@ -11,7 +11,7 @@ base_production = 6
 trade_goods = paper
 base_manpower = 4
 add_core = ALS
-fort_15th = no #yes
+fort_15th = no # yes
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

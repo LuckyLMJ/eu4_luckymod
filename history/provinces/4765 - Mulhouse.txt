@@ -1,6 +1,6 @@
 # 4765 - Mulhouse. Primary city: Mülhausen
-owner = MLH
-controller = MLH
+owner = LOR
+controller = LOR
 capital = "Mülhausen"
 is_city = yes
 culture = swabian

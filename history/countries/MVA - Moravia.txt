@@ -1,5 +1,5 @@
 government = theocracy
-add_government_reform = leading_clergy_reform
+add_government_reform = prussian_theocratic_reform #leading_clergy_reform
 primary_culture = czech
 religion = hussite
 government_rank = 1

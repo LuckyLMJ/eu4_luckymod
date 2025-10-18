@@ -11,7 +11,6 @@ own_greece = {
 			thrace_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 		
@@ -30,7 +29,6 @@ own_holland = {
 			holland_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -48,17 +46,14 @@ own_bavaria = {
 			upper_bavaria_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 			lower_bavaria_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 			east_bavaria_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -78,7 +73,6 @@ own_andalusia = {
 			upper_andalucia_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -98,7 +92,6 @@ own_tuscany = {
 			tuscany_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -117,7 +110,6 @@ own_zaporizhia = {
 			zaporizhia_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -137,7 +129,6 @@ own_leinster = {
 			leinster_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -155,7 +146,6 @@ own_schleswig_holstein = {
 			holstein_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -173,7 +163,6 @@ own_lorraine = {
 			lorraine_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -191,7 +180,6 @@ own_navarra= {
 			basque_country = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -210,7 +198,6 @@ own_brno = {
 			moravia_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -228,12 +215,10 @@ own_sicily = {
 			sicily_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 			western_sicily_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -251,7 +236,6 @@ own_karaman = {
 			karaman_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -270,7 +254,6 @@ own_finland = {
 			finland_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -291,11 +274,9 @@ own_riga = {
 				OR = {
 					AND = {
 						owned_by = PREV
-						controlled_by = PREV
 					}
 					AND = {
 						country_or_non_sovereign_subject_holds = PREV
-						controlled_by = owner
 					}
 				}
 			}
@@ -316,7 +297,6 @@ own_armenia = {
 			armenia_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
@@ -334,7 +314,6 @@ own_yemen = {
 			upper_yemen_area = {
 				type = all
 				owned_by = PREV
-				controlled_by = PREV
 			}
 		}
 	}
