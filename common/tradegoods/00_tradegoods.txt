@@ -673,7 +673,10 @@ copper = {
 
 gold = {
 	color = { 1.0 0.84 0.19 }
-	#no modifiers
+
+	province = {
+		local_production_efficiency = -0.25
+	}
 	
 	chance = {
 		factor = 5
