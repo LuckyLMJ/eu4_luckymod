@@ -109,7 +109,7 @@ divorce_consort_aspect = {
 
 gain_consort_aspect = {
 	sprite = "GFX_marry_local_suitor_icon"
-	cost = 100
+	cost = 50
 	potential = {
 		has_dlc = "Rights of Man"
 		government = monarchy
@@ -151,7 +151,7 @@ gain_consort_aspect = {
 
 dissolve_monasteries_aspect = {
 	sprite = "GFX_dissolve_monasteries_icon"
-	cost = 50
+	cost = 100
 	trigger = {
 		has_estate = estate_church
 	}
@@ -167,7 +167,7 @@ dissolve_monasteries_aspect = {
 		}
 		change_estate_land_share = {
 		   estate = estate_church
-		   share = -1
+		   share = -2
 	    }
 	}
 	ai_will_do = {
