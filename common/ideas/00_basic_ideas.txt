@@ -58,7 +58,7 @@ aristocracy_ideas = {
 		
 		# Zaporizhia wants to take Aristo, if possible
 		modifier = {
-			factor = 2.5
+			factor = 5
 			tag = ZAZ
 		}
 		
@@ -158,7 +158,7 @@ plutocracy_ideas = {
 
 horde_gov_ideas = {
 	category = MIL
-	
+
 	bonus = {
 		cavalry_power = 0.25
 		nomadic_tribes_loyalty_modifier = 0.1
@@ -195,7 +195,7 @@ horde_gov_ideas = {
 		factor = 8
 		# Zaporizhia wants to take Horde, if possible
 		modifier = {
-			factor = 2.5
+			factor = 5
 			tag = ZAZ
 		}
 		modifier = {
@@ -393,7 +393,8 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		culture_conversion_cost = -0.25
+		culture_conversion_cost = -0.33
+		culture_conversion_time = -0.2
 		brahmins_hindu_loyalty_modifier = 0.1
 		church_loyalty_modifier = 0.1
 	}
@@ -403,31 +404,36 @@ religious_ideas = {
 		missionary_maintenance_cost = -0.5
 	}
 	church_attendance_duty = { 
-		manpower_in_true_faith_provinces = 0.1
+		manpower_in_true_faith_provinces = 0.2
 	}
 	divine_supremacy = {
 		global_missionary_strength = 0.03
 	}
 	devoutness = {
-		tolerance_own = 2
+		tolerance_own = 3
+		olerance_heretic = -1
+		land_morale = 0.05
 	}
 	inquisition = {
 		papal_influence = 2
-		devotion = 0.25
-		monthly_fervor_increase = 0.25
+		devotion = 1
+		monthly_fervor_increase = 1
 		church_power_modifier = 0.1
 		monthly_piety_accelerator = 0.001
 		yearly_karma_decay = 0.1
 		yearly_doom_reduction = 1
 		yearly_authority = 0.15
 		yearly_patriarch_authority = 0.005
-		prestige_per_development_from_conversion = 0.1
+		prestige_per_development_from_conversion = 0.2
+		native_assimilation = 0.5
 	}
 	religious_tradition = {
 		reverse_relation_with_same_religion = 10
+		recover_army_morale_speed = 0.1
 	}
 	deus_vult = {
 		cb_on_religious_enemies = yes
+		morale_damage_received = -0.05
 	}
 
 	ai_will_do = {
@@ -692,27 +698,32 @@ defensive_ideas = {
 	}
 
 	battlefield_commisions = {
-		army_tradition_from_battle = 1.0
+		shock_damage_received = -0.1
+		warscore_from_battles_modifier = 0.2
 	}
 	military_drill = {
-		land_morale = 0.2 #0.15
+		land_morale = 0.1
+		army_tradition_decay = -0.001
 	}
 	improved_manuever = {
 		leader_land_manuever = 1
+		movement_speed = 0.15
 	}
 	regimental_system = {
-		land_maintenance_modifier = -0.1 #0.05
-		regiment_manpower_usage = -0.1 #0.05
+		land_maintenance_modifier = -0.1
+		land_forcelimit_modifier = 0.2
 	}
 	defensive_mentality = {
 		defensiveness = 0.25
-		fort_maintenance_modifier = -0.1
+		fort_maintenance_modifier = -0.2
+		fire_damage_received = -0.075
 	}
 	supply_trains = {
-		reinforce_speed = 0.3
+		land_attrition = -0.33
 	}
 	improved_foraging = {
-		garrison_size = 0.33
+		garrison_size = 0.5
+		garrison_damage = 0.75
 		effect = {
 			hidden_effect = {
 				if = {
