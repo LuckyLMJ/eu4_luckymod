@@ -910,11 +910,11 @@ country_event = {
 		trigger = { has_dlc = "Rule Britannia" }
 		ai_chance = {
 			factor = 75
-			modifier = {
-				factor = 0.01
-				NOT = { tag = ENG }
-				NOT = { tag = GBR }
-			}
+			#modifier = {
+			#	factor = 0.01
+			#	NOT = { tag = ENG }
+			#	NOT = { tag = GBR }
+			#}
 			modifier = {
 				factor = 10000
 				PAP = { is_part_of_hre = yes }
@@ -976,7 +976,7 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 0
+			factor = 5000
 		}
 		enable_religion = anglican
 		change_religion = anglican
