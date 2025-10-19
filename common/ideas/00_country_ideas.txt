@@ -18461,6 +18461,50 @@ GMA_ideas = {
 	}
 }
 
+HUS_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	bonus = {
+		max_absolutism_effect = 0.15
+	}	
+
+	trigger = {
+		tag = HUS
+	}
+	free = yes
+	
+	hus_reforge_moravias_hegemony = {
+		overextension_impact_modifier = -0.25
+	}
+	hus_apostles_to_the_slavs = {
+		missionaries = 1
+	}
+	hus_princes_of_nitra_kings_of_moravia = {
+		monarch_admin_power = 1
+	}
+	hus_rebuild_veligrad = {
+		build_time = -0.1
+		development_cost = -0.05
+	}
+	hus_rex_sclavorum = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+	}
+	hus_canonize_cyril_methodius = {
+		tolerance_own = 3
+	}
+	hus_svatopluks_legacy = {
+		discipline = 0.05
+		max_absolutism = 5
+	}
+}
+
 voc_ideas = {
 	start = {
 		no_religion_penalty = yes

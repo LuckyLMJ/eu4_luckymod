@@ -51,3 +51,27 @@ luckymod_ethiopia = {
 
 	auto_explore_adjacent_to_colony = yes
 }
+
+hussite_empire = {
+	church_loyalty_modifier = 0.25
+	church_influence_modifier = 0.25
+	church_privilege_slots = 4
+	country_admin_power = 2
+	devotion = 5
+	church_power_modifier = 0.25
+	land_morale = 0.1
+	morale_damage_received = -0.1
+	shock_damage_received = -0.1
+	global_tax_modifier = -0.25
+	trade_efficiency = -0.25
+	cb_on_religious_enemies = yes
+	warscore_cost_vs_other_religion = -0.2
+	core_creation = -0.25
+	tolerance_own = 9
+	tolerance_heathen = -5
+	tolerance_heretic = -5
+	governing_capacity_modifier = 0.25
+	max_absolutism = 25
+	disable_church = yes
+	disable_nobles = yes
+}

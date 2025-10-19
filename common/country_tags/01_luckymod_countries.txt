@@ -1,1 +1,2 @@
 CLT = "countries/Celtica.txt"
+HUS = "countries/HussiteEmpire.txt"
