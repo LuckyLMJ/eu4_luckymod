@@ -2,7 +2,6 @@ clerical_poverty_aspect = {
 	cost = 200
 	modifier = {
 		discipline = 0.05
-		monthly_church_power = -2.0
 		global_missionary_strength = -0.02
 	}
 	effect = {
@@ -27,7 +26,7 @@ punishment_of_sins_aspect = {
 	cost = 100
 	modifier = {
 		prestige = 1
-		yearly_corruption = -0.05
+		governing_capacity = 0.1
 	}
 	effect = {
 		hidden_effect = { 
