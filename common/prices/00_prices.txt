@@ -3,7 +3,7 @@
 
 # Base resources
 grain = {
-	base_price = 2.5
+	base_price = 2 #2.5 Still a great trade good.
 }
 
 wine = {
@@ -15,7 +15,7 @@ wool = {
 }
 
 cloth = {
-	base_price = 3.5
+	base_price = 3.5 #3
 }
 
 fish = {
@@ -31,7 +31,7 @@ salt = {
 }
 
 naval_supplies = {
-	base_price = 2
+	base_price = 2.5 #2 Horrible trade good otherwise, now, still bad.
 }
 
 
@@ -98,7 +98,7 @@ cocoa = {
 # New Non-European Tradegoods
 
 silk = {
-	base_price = 4
+	base_price = 6 #4 The shit is rare, so if you get it, you may as well be popping off
 }
 
 tropical_wood = {
@@ -116,7 +116,7 @@ livestock = {
 }
 
 incense = {
-	base_price = 2.5
+	base_price = 3 #2.5 Becomes the worst trade game after the protestants decide it should be. 
 }
 
 glass = {
@@ -132,7 +132,7 @@ paper = {
 }
 
 coal = {
-	base_price = 10
+	base_price = 8 #10 Coal should NOT be as strong as it is in basegame.
 }
 
 cloves = {
