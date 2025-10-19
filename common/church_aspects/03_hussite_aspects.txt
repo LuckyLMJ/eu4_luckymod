@@ -26,7 +26,7 @@ punishment_of_sins_aspect = {
 	cost = 100
 	modifier = {
 		prestige = 1
-		governing_capacity = 0.1
+		governing_capacity_modifier = 0.1
 	}
 	effect = {
 		hidden_effect = { 
