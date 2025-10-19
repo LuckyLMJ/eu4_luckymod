@@ -22,6 +22,8 @@ christian = {
 		allowed_conversion = {
 			reformed
 			protestant
+			hussite
+			anglican
 		}
 		country = {
 			tolerance_own = 1
@@ -331,6 +333,16 @@ christian = {
 		}
 		
 		uses_anglican_power = yes				# Uses church power/aspect mechanics
+
+		on_convert = {
+			change_religion = anglican
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
 		
 		aspects = {
 			divorce_consort_aspect
@@ -366,6 +378,16 @@ christian = {
 		country_as_secondary = {
 			shock_damage_received = -0.075
 		}
+
+		on_convert = {
+			change_religion = hussite
+			add_prestige = -100
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}	
+		}
 		
 		uses_hussite_power = yes				# Uses church power/aspect mechanics
 		
@@ -394,6 +416,8 @@ christian = {
 		allowed_conversion = {
 			reformed
 			catholic
+			anglican
+			hussite
 		}
 		allowed_center_conversion = {
 			catholic
@@ -535,6 +559,8 @@ christian = {
 		allowed_conversion = {
 			protestant
 			catholic
+			hussite
+			anglican
 		}
 		allowed_center_conversion = {
 			catholic
