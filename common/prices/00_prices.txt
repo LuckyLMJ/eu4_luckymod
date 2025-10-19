@@ -41,7 +41,7 @@ copper = {
 }
 
 gold = {
-	base_price = 0
+	base_price = 4
 	goldtype = yes
 }
 
