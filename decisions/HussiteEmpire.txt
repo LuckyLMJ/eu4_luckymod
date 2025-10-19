@@ -37,11 +37,14 @@ country_decisions = {
 				value = 30
 				continent = europe
 				owned_by = root
-				OR = {
-					culture = czech
-					culture = slovak
-					culture = polish
-					culture = schlesian
+				AND = {
+					religion = hussite
+					OR = {
+						culture = czech
+						culture = slovak
+						culture = polish
+						culture = schlesian
+					}
 				}
 			}
 		}
