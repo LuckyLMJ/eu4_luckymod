@@ -56,7 +56,7 @@ is_ai_player_slot = {
 	monarch_military_power = 1
 
 	global_unrest = -7.5
-	ae_impact = -0.33
+	#ae_impact = -0.33
 	governing_capacity_modifier = 0.1
 
 	# Cancel out AI nerfs
