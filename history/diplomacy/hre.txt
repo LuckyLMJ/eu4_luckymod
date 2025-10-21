@@ -1,1 +1,8 @@
 1444.1.1 = {emperor = LBV}
+
+vassal = {
+	first = LOR
+	second = ALS
+	start_date = 1444.1.1
+	end_date = 1500.1.1
+}
