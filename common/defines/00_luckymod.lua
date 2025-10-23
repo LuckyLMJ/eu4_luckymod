@@ -24,7 +24,7 @@ NDefines.NDiplomacy.AE_FABRICATE_CLAIM = 0
 NDefines.NDiplomacy.DEFENDER_AE_MULT = 0.66
 NDefines.NDiplomacy.DAYS_TO_DECLARE_WAR = 0
 NDefines.NDiplomacy.DEFENDER_OF_FAITH_COST = 10000000 --10 million, basically you can't get DotF
-NDefines.NDiplomacy.MAX_FREE_CITIES = 8 --12
+NDefines.NDiplomacy.MAX_FREE_CITIES = 10 --12
 
 NDefines.NDiplomacy.INTEGRATE_UNION_MIN_YEARS = 50 --50
 NDefines.NDiplomacy.INTEGRATE_VASSAL_MIN_YEARS = 15 --10

@@ -290,11 +290,11 @@ base_values = {
 states_in_hre = {							#bonuses for each non-free city with capital in HRE.. as emperor
 	land_forcelimit	= 0.1 #0.5
 	global_manpower = 0.1 #0.5
-	global_tax_income = 0.1 #new
+	global_tax_income = 0.25 #new
 }
 
 free_cities_in_hre = {							#bonuses for each free city in the HRE.. as emperor
-	global_tax_income = 0.5 #2
+	global_tax_income = 2.5 #2
 	global_manpower = 0.5 #1
 	land_forcelimit	= 0.5
 }
