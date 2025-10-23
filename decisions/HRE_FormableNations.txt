@@ -105,9 +105,9 @@ country_decisions = {
 			owns_or_non_sovereign_subject_of = 65			#Munich
 			owns_or_non_sovereign_subject_of = 64			#Landshut
 			owns_or_non_sovereign_subject_of = 2955			#Ingolstadt
-			#new: 7 Bavarian provinces
+			#new: 10 Bavarian provinces
 			num_of_owned_provinces_with = {
-				value = 7
+				value = 10
 				continent = europe
 				culture = bavarian
 			}

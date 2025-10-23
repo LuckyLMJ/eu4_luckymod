@@ -2,6 +2,7 @@
 owner = PAL
 controller = PAL
 add_core = PAL
+add_permanent_claim = LBV
 culture = bavarian
 religion = catholic
 base_tax = 3
