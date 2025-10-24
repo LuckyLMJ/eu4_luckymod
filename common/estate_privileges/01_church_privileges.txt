@@ -390,13 +390,14 @@ estate_church_papal_emissary = {
 		num_of_cardinals = 1
 	}
 	on_granted = {
-		add_papal_influence = -5
+		add_papal_influence = -20
 	}
 	penalties = {
-		curia_powers_cost = 0.05
+		papal_influence = -0.5 #(You are sending your cardinal to the pope and getting like better curia deals idk)
 	}
 	benefits = {
-		papal_influence = 1
+		curia_powers_cost = -0.1
+		reverse_relation_with_same_religion = 25 #Catholics like this I guess, the pope also does
 	}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
@@ -786,7 +787,7 @@ estate_church_inwards_perfection = {
 		}
 	}
 	modifier_by_land_ownership = {
-		development_cost = -0.33
+		development_cost = -0.2
 		global_tax_modifier = 0.33
 		production_efficiency = 0.33
 		manpower_in_true_faith_provinces = 0.33
@@ -881,11 +882,11 @@ estate_church_enforced_one_faith = {
 
 estate_church_administrative_privileges = {
 	icon = privilege_land_rights
-	land_share = 5
+	land_share = 0
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
-	loyalty = 0.1
-	influence = 0.1
+	loyalty = 0.15
+	influence = 0.15
 	is_valid = {
 	}
 	can_select = {
@@ -894,13 +895,56 @@ estate_church_administrative_privileges = {
 	}
 	on_granted = {
 	}
+	influence_scaled_conditional_modifier = {	
+		trigger = {
+			NOT = {
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 30
+				}
+			}
+		}
+		modifier = {
+			governing_capacity_modifier = -0.2
+		}
+	}
+	influence_scaled_conditional_modifier = {	
+		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 30
+			}
+			NOT = {
+				estate_loyalty = {
+					estate = estate_church
+					loyalty = 60
+				}
+			}
+		}
+		modifier = {
+			governing_capacity_modifier = 0.05
+		}
+	}
+	influence_scaled_conditional_modifier = {	
+		trigger = {
+			estate_loyalty = {
+				estate = estate_church
+				loyalty = 60
+			}
+		}
+		modifier = {
+			governing_capacity_modifier = 0.1
+		}
+	}
 	modifier_by_land_ownership = {
-		tolerance_own = 4
+		tolerance_own = 10
+		development_cost = -0.1
 	}
 	penalties = {
+		all_estate_loyalty_equilibrium = -0.15
 	}
 	benefits = {
-		war_exhaustion = -0.02
+	
 	}
 	mechanics = {
 		exempt_from_seize_land
@@ -2032,16 +2076,20 @@ estate_church_one_faith_one_culture = {
 		}
 	}
 	penalties = {
-		tolerance_heathen = -2
-		tolerance_heretic = -2
+		tolerance_heathen = -3
+		tolerance_heretic = -3
 	}
 	benefits = {
-		global_missionary_strength = 0.01
+		global_missionary_strength = 0.02
+		years_of_nationalism = -10
+		development_cost_in_primary_culture = -0.225
+		development_cost = 0.2
+		
 	}
 	conditional_modifier = {
 		trigger = { has_government_attribute = free_religious_culture }
 		modifier = {
-			church_influence_modifier = -0.2
+			church_influence_modifier = -0.25
 		}
 	}
 	
