@@ -5,7 +5,6 @@ country_event = {
 	title = luckymod_events.1.t
 	desc = luckymod_events.1.d
 	picture = TRADEGOODS_eventPicture
-	hidden = yes
 	trigger = {
 		religion = catholic
 		is_year = 1495
@@ -19,13 +18,15 @@ country_event = {
 		days = 1
 	}
 	immediate = {
-		1 = {
-			set_province_flag = luckymod_reformdesire
+		hidden_effect = {
+			1 = {
+				set_province_flag = luckymod_reformdesire
+			}
+			add_reform_desire = 100
 		}
-		add_reform_desire = 100
 	}
 	option = {
 		name = luckymod_events.1.a
-		ai_chance = {factor = 100}
 	}
+	hidden = yes
 }
