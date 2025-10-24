@@ -18,12 +18,14 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	option = {
-		name = luckymod_events.1.a
-		ai_chance = {factor = 100}
+	immediate = {
 		1 = {
 			set_province_flag = luckymod_reformdesire
 		}
 		add_reform_desire = 100
+	}
+	option = {
+		name = luckymod_events.1.a
+		ai_chance = {factor = 100}
 	}
 }
