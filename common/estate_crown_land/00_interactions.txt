@@ -1,7 +1,7 @@
 interaction = {
     key = sale_of_titles
     random_seed = crown_land_share
-	cooldown_months = 60
+	cooldown_months = 36
 
     trigger = {
         crown_land_share = 10
@@ -183,7 +183,7 @@ interaction = {
 interaction = {
     key = summon_the_diet
     random_seed = random
-	cooldown_months = 60
+	cooldown_months = 36
 
     trigger = {
         NOT = { has_any_active_estate_agenda = yes }
@@ -273,7 +273,7 @@ interaction = {
 interaction = {
     key = seize_land
     random_seed = random
-	cooldown_months = 60
+	cooldown_months = 120
 
     trigger = {
 		hidden_trigger = { has_any_estates = yes }
