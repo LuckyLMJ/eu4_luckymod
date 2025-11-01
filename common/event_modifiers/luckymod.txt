@@ -74,4 +74,6 @@ hussite_empire = {
 	max_absolutism = 25
 	disable_church = yes
 	disable_nobles = yes
+	development_cost = 0.1
+	fire_damage_received = 0.1
 }
