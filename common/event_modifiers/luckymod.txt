@@ -33,6 +33,8 @@ luckymod_coastal_desert_irrigated = {
 
 luckymod_uncolonizable = {
 	local_colonial_growth = -1000
+	province_trade_power_modifier = -10
+	local_autonomy = 100
 }
 
 luckymod_aztec_inca_reduced_warscore = {
