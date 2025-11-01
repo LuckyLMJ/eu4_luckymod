@@ -47,3 +47,8 @@ elector = yes
 		mil = 3 #2
 	}
 }
+
+1444.11.11 = {
+	add_truce_with = MVA
+	add_truce_with = BOH
+}
